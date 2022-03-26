@@ -4,7 +4,7 @@ class Student {
     int studentId;
     char name[20];
   public:
-    void assignDetails(int id, char pName[]);
+    void assignDetails(int pstudentId, char pname[]);
     void display();
   
 };
